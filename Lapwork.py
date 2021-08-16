@@ -41,6 +41,7 @@ while True:
             menu.printMenu()
         elif choice==2:
             print("input discount between 0.05 and 0.4")
+            discount=float(input())
             menu.discountMenu(discount)
         else:
          print("wrong input")
